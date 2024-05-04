@@ -1,0 +1,30 @@
+1.props is a feature where you send data from one file to another file using its features
+
+
+<Prop or varaible_name types:proptotype />
+    <Student />
+
+<Student name:"Some_name" age:{Some_number} Boolien:{True false} />
+    <Student name:"Ali" age:{12} Gender:{true} />
+
+2.There are some  things in prop which are set to confirm its value is Right 
+    in some case we give number in string and vice versa , for Avoiding that thing we give PropType
+
+    import Proptype from 'prop-types'//this thing is in your node module;
+
+    prop or Variable_name.propType={
+        name:Proptype.string,  //also can add ".required for confirm getting some value"
+        age:Proptype.number,
+        Gender:Proptype.bool
+    }
+
+
+3.We can set Prop value in default ,we can use this thing when the user didnt sent the data in Prop
+
+    import Proptype from 'prop-types'//this thing is in your node module;
+
+    prop or Variable_name.defaultProps ={
+        name:"Guest",
+        age:0,
+        Gender:"T"
+    }
