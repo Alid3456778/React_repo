@@ -1,8 +1,8 @@
-# React + Vite
+It contain Onchange Ellement concept 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+the onchange concept is when we cahnge some input Elements or tag 
+it is going to be triger 
+input Elements like input , textarea , radio , option and more
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+we pass the value attribute in input element and it stores the usestate getting value
+and have an onchange attribute that have an function
