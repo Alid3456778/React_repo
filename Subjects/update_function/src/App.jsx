@@ -1,10 +1,12 @@
 import React from 'react'
-import Compo from './compo'
+import Update from './update_fun'
+import Update_object from './update_object'
 
 function App() {
   return (
     <>
-    <Compo/>
+    {/* <Compo/> */}
+    <Update_object/>
     </>
   )
 }
