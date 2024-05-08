@@ -1,0 +1,1 @@
+it contain usestate element which acts as a variable which can be use in vitual DOM
