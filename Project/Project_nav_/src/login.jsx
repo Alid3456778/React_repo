@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from "react-router-dom";
 const login = () => {
   return (
     <div className=' flex justify-center items-center h-screen'>
@@ -8,7 +8,7 @@ const login = () => {
         <label htmlFor="" className=' font-mono font-medium ml-5'>ENter Your Name</label>
         <input type="text"placeholder='F_name' className='bg-zinc-500 w-4/5 mt-3 p-3 '/>
         <input type="password" placeholder='Password ' />
-        <button>Submit</button>
+        <link>Click</link>
         </div>
     
     </div>

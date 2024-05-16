@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const nav = () => {
+  const [menu,setMenu]=useState("home");
   return (
     <>
     <div className='flex justify-between font-semibold'>
