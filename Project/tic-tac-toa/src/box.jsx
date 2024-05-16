@@ -1,14 +1,9 @@
 import React, { useState }  from 'react'
 
-const box = () => {
-    const [valX,setvalX]=useState(" ");
-
-const changeval= ()=>{
-  setvalX("X");
-}
+const box = ({value ,squrex}) => {
   return (
     <>
-     <button value={1} onClick={changeval}>{valX}</button>
+     <button  className='but' onClick={squrex}>{value}</button>
     </>
   )
 }
